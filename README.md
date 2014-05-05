@@ -3,6 +3,10 @@ Unity-CSV-To-C-Sharp
 
 Unity CSV转为C#文件 来省去解析csv的步骤，节省游戏加载时间。
 
+环境要求：
+	安装Python环境
+	Windows 需要配置环境变量，然后直接双击python脚本即可运行。
+	Mac安装Python后在终端直接 python _ExcelToCSharp.py的绝对路径即可
 转换：
 
 	把csv文件放到csv_folder文件夹中，运行_ExcelToCSharp.py这个python脚本即可。然后C#文件会出现在csharp_folder/data中，
