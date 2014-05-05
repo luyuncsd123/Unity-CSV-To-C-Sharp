@@ -77,10 +77,12 @@ Unity CSV转为C#文件 来省去解析csv的步骤，节省游戏加载时间�
 	Debug.Log( HeroData1.Instance().getInt(1,"hp") )
 	--20
 	
-	通过字符串文件名调用
+	通过dataManage类+字符串文件名直接调用方法
 	
+	//HeroData1的第一种调用方法：
 	Debug.Log( HeroData1.Instance().getInt(1,"hp") )
 	--20
 	
-	Debug.Log( dataManage.Instance("HeroData1").getInt(1,"hp") )
+	//HeroData1的第二种调用方法：
+	<a style="color:#80BFFF">Debug.Log( dataManage.Instance("HeroData1").getInt(1,"hp") )
 	--20
