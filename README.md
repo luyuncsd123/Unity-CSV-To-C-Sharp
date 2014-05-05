@@ -55,7 +55,7 @@ Unity CSV转为C#文件 来省去解析csv的步骤，节省游戏加载时间�
 	
 	---常用---
 	Instance()                                    单例模式，返回数据类实例对象。
-	void print()       			      打印函数
+	void print()       			      打印CSV数据到控制台
 	string[] getKeyArray();			      以一维数组的形式获取所有的key
 	string get(int num,string typeName);	      通过第几行数据+key值获取string类型数据
 	int getInt(int num,string typeName);	      通过第几行数据+key值获取int类型数据
