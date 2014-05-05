@@ -86,7 +86,7 @@ Unity CSV转为C#文件 来省去解析csv的步骤，节省游戏加载时间�
 	Debug.Log( HeroData1.Instance().getInt(1,"hp") )
 	--20
 	
-	//HeroData1中hp第二行数据的第二种调用方法(用到了dataManage类，这个类会通过python生成)：
+	//HeroData1中hp第二行数据的第二种调用方法(用到了dataManage类，这个类会通过_ExcelToCSharp.py生成)：
 	Debug.Log( dataManage.Instance("HeroData1").getInt(1,"hp") )
 	--20
 
