@@ -18,6 +18,10 @@ public class HeroData1 : csvDataParent{
         }
         return _instance;
     }
+	
+	//Unity CSV
+	//unity csv
+	//csv To CSharp
 
 	// "key1","key2","key3"
 	private string[] _AllKey = {

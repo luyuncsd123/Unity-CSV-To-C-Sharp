@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 public class HeroData2 : csvDataParent{
 
 	private volatile static HeroData2 _instance = null;
@@ -18,6 +20,10 @@ public class HeroData2 : csvDataParent{
         }
         return _instance;
     }
+
+	//Unity CSV
+	//unity csv
+	//csv To CSharp
 
 	// "key1","key2","key3"
 	private string[] _AllKey = {
