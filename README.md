@@ -72,7 +72,7 @@ Unity CSV转为C#文件 来省去解析csv的步骤，节省游戏加载时间�
 	文件名直接调用：
 	
 	Debug.Log( HeroData1.Instance().getInt(0,"level") )
-	--0
+	--1
 	Debug.Log( HeroData1.Instance().getInt(4,"level") )
 	--5
 	Debug.Log( HeroData1.Instance().getInt(1,"hp") )
